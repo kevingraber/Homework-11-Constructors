@@ -1,0 +1,22 @@
+{
+  "name": "constructors",
+  "version": "1.0.0",
+  "description": "Creating a node app using object constructors.",
+  "main": "bus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevingraber/Homework-11-Constructors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevingraber/Homework-11-Constructors/issues"
+  },
+  "homepage": "https://github.com/kevingraber/Homework-11-Constructors#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
