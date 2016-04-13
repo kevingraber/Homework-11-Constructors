@@ -1,3 +1,4 @@
+// Creating the student constructor.
 function student(name, gender, grade, gpa, detentions, sleepingInClass, catchPhrase) {
 	this.name = name;
 	this.gender = gender;
@@ -17,5 +18,6 @@ function student(name, gender, grade, gpa, detentions, sleepingInClass, catchPhr
 	}
 }
 
+// Exporting the student constructor.
 module.exports = student;
 

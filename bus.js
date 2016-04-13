@@ -1,3 +1,4 @@
+// Creating the bus constructor.
 function bus(studentsOnTheBus, driverName, color, gas) {
 	this.studentsOnTheBus = studentsOnTheBus;
 	this.driverName = driverName;
@@ -15,4 +16,5 @@ function bus(studentsOnTheBus, driverName, color, gas) {
 	}
 }
 
+// Exporting the bus constructor.
 module.exports = bus;
