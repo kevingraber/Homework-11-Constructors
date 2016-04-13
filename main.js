@@ -38,13 +38,21 @@ var studentArray = [
 var newBus = new bus(studentArray, 'Christopher', 'Yellow', 20)
 
 // Invoking the busChatter method.
+console.log(" ")
 newBus.busChatter()
 
-// Using prompt to allow the user to enter a student's info, then telling them if the student can have fun. 
+// Using prompt to allow the user to enter a student's info, tells them if the student can have fun, adds them to the bus, and then displays who is on the bus. 
 console.log(" ")
-console.log("Add a student to see if they can have fun!")
+console.log("Add a student to the bus and see if they can have fun!")
 console.log(" ")
 prompt.get(['name', 'gender', 'grade', 'gpa', 'detentions', 'sleepingInClass', 'catchPhrase'], function(err, result) {
 	var newKid = new student(result.name, result.gender, result.grade, result.gpa, result.detentions, result.sleepingInClass, result.catchPhrase)
+	console.log(" ")
 	newKid.canStudentHaveFun();
+	newBus.studentEntersBus(newKid)
 })
+
+// Sample calls of the removeStudent method for Bonus #1. Un-comment it to run it. 
+// newBus.removeStudent('Alex')
+// newBus.removeStudent('Kevin')
+// newBus.removeStudent('James')
