@@ -1,8 +1,3 @@
-var student = require('./student.js')
-
-// var student = imports.student
-// console.log(student)
-
 function bus(studentsOnTheBus, driverName, color, gas) {
 	this.studentsOnTheBus = studentsOnTheBus;
 	this.driverName = driverName;
@@ -19,7 +14,5 @@ function bus(studentsOnTheBus, driverName, color, gas) {
 		}
 	}
 }
-
-// console.log(student)
 
 module.exports = bus;
